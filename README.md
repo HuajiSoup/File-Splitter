@@ -6,6 +6,10 @@ This tool helps you split a big file into small pieces for easy storage and tran
 We also helps you mix them all up into the original file.
 There is a consoled version and a windowed version, the **windowed version** is recommended.
 
+# Libraries
+-org.apache.commons.io
+-org.apahce.commons.cli **(Consoled version only)**
+
 # How to use?
 The consoled version has a built-in doc, so read it.
 The windowed version is easy to understand (i believe), so do it.
