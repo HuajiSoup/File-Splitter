@@ -245,7 +245,7 @@ public class FileSplitterUI {
                 FileSplitter fileSplitter = new FileSplitter(
                         mixField.getText(),
                         fileListModel.elementAt(0),
-                        (Integer) maxSizeField.getValue(),
+                        ((Number) maxSizeField.getValue()).intValue(),
                         runBar,
                         runFrame,
                         mainFrame);
